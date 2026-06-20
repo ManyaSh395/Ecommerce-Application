@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
+import logo from "../assets/logo.png";
 
 export default function Navbar() {
   const { user, logout } = useAuth();
@@ -7,7 +8,8 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-brand">
-          ShopHub
+            <img src={logo} alt="UrbanCart Logo" className="navbar-logo" />
+            <span>UrbanCart</span>
         </Link>
         <div className="navbar-links">
           <Link to="/" className="navbar-link">

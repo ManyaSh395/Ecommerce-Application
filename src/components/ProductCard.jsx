@@ -17,7 +17,9 @@ export default function ProductCard({ product }) {
       />
       <div className="product-card-content">
         <h3 className="product-card-name">{product.name}</h3>
-        <p className="product-card-price">${product.price}</p>
+        <p className="product-card-price">
+          ₹{product.price.toLocaleString("en-IN")}
+        </p>
         <div className="product-card-actions">
           <Link className="btn btn-secondary" to={`/products/${product.id}`}>
             View Details
