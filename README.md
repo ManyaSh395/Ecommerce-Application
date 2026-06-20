@@ -1,16 +1,81 @@
-# React + Vite
+# UrbanCart
+A modern React-based e-commerce web application featuring product browsing, product details, cart management, authentication, and a responsive user interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+### User Authentication: 
+1. User Signup
+2. User Login
+3. Logout functionality
+4. Authentication state management using React Context API
 
-Currently, two official plugins are available:
+### Product Catalog: 
+1. Browse a collection of products
+2. Product detail pages
+3. Responsive product cards
+4. Modern UI with hover effects
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Shopping Cart: 
+1. Add products to cart
+2. Remove products from cart
+3. Increase or decrease product quantity
+4. Dynamic cart total calculation
+5. Checkout summary
 
-## React Compiler
+### Checkout: 
+1. Order summary
+2. Quantity management
+3. Price calculations in Indian Rupees (₹)
+4. Order placement functionality
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### User Experience
+1. Responsive design
+2. Modern gradient-based UI
+3. Clean navigation
+4. Interactive buttons and animations
+5. Cart quantity indicators
 
-## Expanding the ESLint configuration
+## Tech Stack
+### Frontend
+1. React.js
+2. React Router DOM
+3. React Hook Form
+4. Context API
+5. JavaScript (ES6+)
+6. CSS3
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Development Tools
+1. Vite
+2. npm
+3. Git & GitHub
+
+## Installation & Setup
+1. Clone the repository: git clone git@github.com:ManyaSh395/Ecommerce-Application.git
+
+2. Navigate to project directory: cd Ecommerce-Application
+
+3. Install dependencies: npm install
+
+4. Run the development server: npm run dev
+
+5. Open in browser: http://localhost:5173
+
+## Key Concepts Implemented
+### React Context API
+Authentication state management, Cart state management
+
+### React Router
+Navigation between pages, Dynamic product routes
+
+### Form  Validation
+React Hook Form
+
+### State Management
+useState, useContext, Custom Context Providers
+
+## Learning Outcomes
+1. React Components
+2. React Hooks
+3. Context API
+4. React Router DOM
+5. Form Validation
+6. State Management
